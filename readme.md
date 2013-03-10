@@ -24,7 +24,7 @@ Include jQuery and the plugin on a page. Then select a checkbox to transform and
 ```
 
 ## Contributing
-Follow the [jQuery style guide](http://contribute.jquery.com/style-guides/js), even if existing code doesn't. Add unit tests for any new or changed functionality. Lint and test your code.
+Follow the [jQuery style guide](http://contribute.jquery.com/style-guides/js), even if existing code doesn't. Lint and test your code.
 
 ## License
 Copyright (c) 2013 Ignacio A. Rivas
