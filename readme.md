@@ -1,7 +1,7 @@
 [jQuery SlideCheck Plugin](https://github.com/sabarasaba/jquery-slidecheck)
 ================================
 
-![Screenshot](http://cl.ly/image/2i2r0q2E2x00/Screen%20Shot%202013-03-10%20at%202.57.46%20PM.png)
+      ![Screenshot](http://cl.ly/image/2i2r0q2E2x00/Screen%20Shot%202013-03-10%20at%202.57.46%20PM.png)
 
 The jQuery SlideCheck Plugin provides an improved control that allows drag n drop and its mobile ready and super easy to implement.
 
@@ -28,4 +28,5 @@ Follow the [jQuery style guide](http://contribute.jquery.com/style-guides/js), e
 
 ## License
 Copyright (c) 2013 Ignacio A. Rivas
+
 Licensed under the MIT license.
