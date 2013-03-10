@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Slidecheck demo</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery.slidecheck.css" />
+    <style>
+      html, body { height:100%; }
+      html {
+        display: table;
+        width: 100%;
+      }
+      body {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaBAMAAABbZFH9AAAABGdBTUEAALGPC/xhBQAAACFQTFRF7+/v6+vr7e3t7e3t7Ozs7+/v7Ozs7u7u6+vr+vr6+vr6ea5KEQAAAAt0Uk5TPVdSTFJBV0heAwWSAGUvAAAA+ElEQVQY0yWQsXEEIQxFlXo72BJuC7Bn6QClDjwQ2h6PRegMFeA5qQPoQKryxN4ISMT/70vw8fr9+fd7v/+/f/28Ac9pc45pcQx4K1utrNp2UeAxzHyae/yA3pK2UgpjJwW0ETXH6hmI4lGxnZ0Sdkg+fRnGHQNOIWbOBaXWA/ZQWSDHAgJSVmHeaupJ4Jxu0RyXK0QMkb13Tb0wcKR44kIIfO6qmSIncYdjTPcRvCsniQq1JCjSG2QLjcczYhLIWaLLx4lEO+hT4YsZ83HCVqn0FrbwMi+cLWeHE2upvd1ypXaDujYWhiuNQ0pYmBMV0VoA17rsKvcHSU6n9nFMsFQAAAAASUVORK5CYII=), -webkit-radial-gradient( circle, hsl(220, 35%, 50%), hsl(220, 80%, 20%) );
+        background-position: 50% 50%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <input type='checkbox' class="slide" /><br>
+    <input type='checkbox' class="slide" checked/>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.slidecheck.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.slide').slidecheck();
+      });
+    </script>
+  </body>
+</html>

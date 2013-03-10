@@ -1,0 +1,55 @@
+.slideCheck {
+  -webkit-appearance: none;
+  background-image: -webkit-linear-gradient( hsl(210, 70%, 30%), hsl(200, 50%, 20%) );
+  box-shadow:
+    inset 0  1px 1px hsla(0, 0%, 100%, 0.2),
+    inset 0 -1px 1px hsla(0, 0%,   0%, 0.2),
+          0  1px 4px hsla(0, 0%,   0%, 0.5);
+  -webkit-transition: left 0.5s;
+  box-sizing: border-box;
+  border: solid 1px hsl(210, 70%, 30%);
+  border-radius: inherit;
+  cursor: pointer;
+
+  position: absolute;
+  width: 53%;
+  height: 113%;
+  top: -12%;
+  left: -2%;
+  z-index: 1;
+}
+
+.slideCheck:checked {
+  left: 45px;
+}
+
+label.slideCheckTrack {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.75);
+  background-color: hsl(0, 0%, 80%);
+  background-image: -webkit-linear-gradient(left, hsla(210, 50%, 55%, 0.75) 50%, transparent 50%), -webkit-linear-gradient(hsl(0, 0%, 65%), hsl(0, 0%, 85%) );
+  border-radius: 10px;
+  margin: 3px;
+}
+
+label.slideCheckTrack:before,
+label.slideCheckTrack:after {
+  display: block;
+  position: absolute;
+  width: 50%;
+  line-height:40px;
+}
+
+label.slideCheckTrack:before {
+  content: 'On';
+  color: hsl(0, 0%, 100%);
+  left: 0;
+}
+
+label.slideCheckTrack:after {
+  content: 'Off';
+  right: 0;
+}
